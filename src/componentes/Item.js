@@ -9,7 +9,7 @@ const Item = ({title, price, img, id }) => {
             <img className='img-card'src={img} alt={title} />
             <button className='btn-details'>
                 <Link to={`/item/${id}`} className='btn-productos'>
-                    Ver mas...
+                    Detalles
                 </Link>
             </button>
         </div>

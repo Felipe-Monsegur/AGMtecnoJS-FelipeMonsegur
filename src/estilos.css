@@ -74,7 +74,7 @@ main{
 
  .contenedor-carrito:hover{
     transform: scale(1.2);
-    text-shadow: 2px 1px 1px #9032bb;
+    text-shadow: 2px 1px 1px #000000;
  }
 
 
@@ -175,7 +175,7 @@ main{
     border-radius: 3px;
 }
 .btn-productos:hover{
-    color: #9032bb;
+    color: #4c95f3;
 }
 
 /* Item Detail */
