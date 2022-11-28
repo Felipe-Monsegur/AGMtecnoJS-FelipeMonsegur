@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(./imagenes/fondo\ negro\ cuadro.jpg) ;;
+    background-image: url(../public/imagenes/fondo\ negro\ cuadro.jpg) ;;
     color:#E8EAED;
     font-family: 'Poppins', sans-serif;
     background-size: cover;
@@ -31,6 +31,7 @@ a:hover{
 }
 /*  Generales  */
 nav{
+    padding: 10px;
     position:relative;
     display: flex;
     justify-content: space-between;
@@ -157,8 +158,9 @@ main{
 }
 
 .img-card{
+    padding: 10px;
     width: 90%;
-    height: 70%;
+    height: 60%;
 }
 
 .btn-productos{
