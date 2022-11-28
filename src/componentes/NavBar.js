@@ -10,7 +10,7 @@ const NavBar = () => {
         <h1 className="title">AGMtecno</h1>
         </NavLink>
         <div className="desplegable">
-            <button className="boton-links">Categorias</button>
+            <button className="boton-links">Productos</button>
             <div className="contenido-menu">
                 <NavLink to="/">Todos</NavLink>
                 <NavLink to="/productos/celular">Celulares</NavLink>
