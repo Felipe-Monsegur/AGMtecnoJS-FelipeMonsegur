@@ -1,21 +1,21 @@
-import Header from "./Header"
-import Main from "./Main"
-import Footer from "./Footer"
-import { BrowserRouter } from "react-router-dom"
-import { ToastContainer } from "react-toastify"
-import CustomProvider from "./CustomProvider"
+import React from 'react';
+import NavBar from './componentes/NavBar';
+import Main from './componentes/Main';
+import { BrowserRouter } from 'react-router-dom';
+import ContextProvider from './componentes/ContextProvider';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-function App() {
-    return (
-        <CustomProvider>
-            <BrowserRouter>
-                <Header />
-                <Main />
-                <Footer />
-                <ToastContainer />
-            </BrowserRouter>
-        </CustomProvider>
-    )
+const App = () => {
+  return (
+    <ContextProvider>
+    <BrowserRouter>
+    <NavBar />
+    <Main />
+    <ToastContainer limit={3} toastStyle={{ backgroundColor: "black" }}/>
+    </BrowserRouter>
+    </ContextProvider>
+  );
 }
 
-export default App
+export default App;
